@@ -4,6 +4,14 @@
 
 @media screen and (max-width: 767px) {
     .header__logo {
-        max-width: 142px;
+        width: 142px;
+        height: 42px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header__logo {
+        padding-top: 28px;
+        padding-bottom: 7px;
     }
 }

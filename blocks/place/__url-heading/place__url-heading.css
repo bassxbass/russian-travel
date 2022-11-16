@@ -1,5 +1,6 @@
 .place__url-heading {
-  margin: 0 0 12px 0;
+  margin: 0;
+  padding: 0 0 12px 0;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -8,10 +9,4 @@
 /* identical to box height, or 100% */
   letter-spacing: 2px;
   color: #AAAAAA;
-}
-
-@media screen and (max-width: 767px) {
-  .place__url-heading {
-      margin-left: 16px;
-  }
 }
