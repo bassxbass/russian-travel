@@ -7,9 +7,9 @@
 }
 
 @media screen and (max-width: 767px) {
-    .footer__nav {
-        flex-direction: column;
-        margin-bottom: 46px;
-        gap: 32px;
-    }
+  .footer__nav {
+    flex-direction: column;
+    margin: 0 0 46px 0;
+    gap: 32px;
+  }
 }

@@ -13,17 +13,17 @@
 }
 
 .cover__image::before {
-   content: "";
-   background-color: #2a2c2f;
-   opacity: 0.3;
-   position: absolute;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   transition: opacity 0.5s linear;
-  }
+  content: "";
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity 0.5s linear;
+}
   
 .cover__image:hover::before {
-    opacity: 0.8;
-  }
+  opacity: 0.8;
+}
