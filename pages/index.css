@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
 @import url(../fonts/inter.css);
+@import url(../vendor/fonts.css);
+
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/body/body.css);
@@ -24,6 +25,7 @@
 
 @import url(../blocks/foto-grid/foto-grid.css);
 @import url(../blocks/foto-grid/__image/foto-grid__image.css);
+@import url(../blocks/foto-grid/__table/foto-grid__table.css);
 
 @import url(../blocks/places/places.css);
 
