@@ -8,8 +8,9 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
-    margin: 92px 48px 0 48px;
     max-width: 1184px;
+    margin: 92px auto 0 ;
+    
     min-height: 740px;
   }
 
