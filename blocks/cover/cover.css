@@ -1,24 +1,66 @@
-.cover {
-    width: 1184px;
-    margin: 0 auto;
-    max-width: 100%;
+  .cover {
     position: relative;
- }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 92px 48px 0 48px;
+    max-width: 1184px;
+    min-height: 740px;
+    margin: 0 auto;
+  }
 
- @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover {
-      width: 1024px;
+  .cover::before {
+    content: "";
+    background-color: #2a2c2f;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.5s linear;
+  }
+    
+  .cover:hover::before {
+    opacity: 0.8;
+  }
+
+  @media screen and (min-width: 768px) {
+    .cover:hover::before {
+      opacity: 0.8;
     }
   }
   
-  @media screen and (min-width: 375px) and (max-width: 1023px) {
+  @media all and (max-width: 1024px) {
     .cover {
-      width: 100%;
+      margin: 97px 0 0 0;
+      max-width: 1024px;
+      min-height: 640px;
     }
   }
   
-  @media screen and (max-width: 374px) {
+  @media all and (max-width: 768px) {
     .cover {
-      width: 100%;
+      margin-top: 90px;
+      min-height: 480px;
+    }
+  }
+  
+  @media all and (max-width: 400px) {
+    .cover {
+      margin-top: 40px;
+      min-height: 300px;
+    }
+  }
+  
+  @media all and (max-width: 320px) {
+    .cover {
+      min-height: 200px;
+      margin-top: 66px;
     }
   }
