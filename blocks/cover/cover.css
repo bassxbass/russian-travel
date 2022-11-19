@@ -11,7 +11,6 @@
     margin: 92px 48px 0 48px;
     max-width: 1184px;
     min-height: 740px;
-    margin: 0 auto;
   }
 
   .cover::before {
@@ -29,16 +28,10 @@
   .cover:hover::before {
     opacity: 0.8;
   }
-
-  @media screen and (min-width: 768px) {
-    .cover:hover::before {
-      opacity: 0.8;
-    }
-  }
   
   @media all and (max-width: 1024px) {
     .cover {
-      margin: 97px 0 0 0;
+      margin: 92px 0 0 0;
       max-width: 1024px;
       min-height: 640px;
     }
