@@ -1,0 +1,11 @@
+.place__paragraph-box {
+    margin: 0 auto 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__paragraph-box {
+      max-width: 320px;
+    }
+}

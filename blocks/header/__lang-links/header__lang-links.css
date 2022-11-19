@@ -5,14 +5,11 @@
   grid-template-columns: max-content max-content;
   gap: 18px;
   list-style-type: none;
-  max-height: 28px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header__lang-links {
       padding-top: 46px;
-      padding-bottom: 0;
-      border: 1px solid red;
   }
 }
 

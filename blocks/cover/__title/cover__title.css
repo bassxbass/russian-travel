@@ -10,12 +10,6 @@
   color: #ffffff;
 }
 
-@media all and (max-width: 768px) {
-  .cover__title {
-    margin-top: auto;
-  }
-}
-
 @media all and (max-width: 530px) {
   .cover__title {
     font-size: 62px;

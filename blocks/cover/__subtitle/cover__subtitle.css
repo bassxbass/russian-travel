@@ -9,13 +9,6 @@
   color: #ffffff;
 }
 
-@media all and (max-width: 768px) {
-  .cover__subtitle {
-  margin-bottom: auto;
-  }
-}
-
-
 @media all and (max-width: 370px) {
   .cover__subtitle {
     max-width: 288px;
